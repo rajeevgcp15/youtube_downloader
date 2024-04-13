@@ -13,6 +13,6 @@ def Download(link):
     print("Download is completed successfully")
 
 
-link = st.input("Enter the YouTube video URL: ")
+link = st.text_input("Enter the YouTube video URL: ")
 if st.button("Click to Download File"):
     Download(link)
