@@ -14,5 +14,5 @@ def Download(link):
 
 
 link = st.input("Enter the YouTube video URL: ")
-if st.button("Click to Download File")
+if st.button("Click to Download File"):
     Download(link)
